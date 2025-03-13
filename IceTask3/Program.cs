@@ -11,13 +11,13 @@
             Console.WriteLine();
             Console.WriteLine("********************************");
             Console.WriteLine();
-            
+
 
             // Create an instance of Circle
             Shape circle = new Circle("Circle", 7);
-            circle.Display();  
+            circle.Display();
 
-            Console.ReadKey();  
+            Console.ReadKey();
         }
     }
 }
