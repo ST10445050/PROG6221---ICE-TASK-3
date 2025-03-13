@@ -20,23 +20,24 @@ namespace IceTask3
         }
 
         // Implementing CalculateArea from ICalculateArea
-        public double CalculateArea()  
+        public double CalculateArea()
         {
-            double area = Length * Width;  
-            return area;  
+            double area = Length * Width;
+            return area;
         }
 
         // Overriding the Display method
         public override void Display()
         {
             Console.WriteLine($"Shape: {Name}");
-            Console.WriteLine($"Length: {Length}, Width: {Width}");
-            double area = CalculateArea();  
-            Console.WriteLine($"Area of the Rectangle is: {area}");  
+            Console.WriteLine($"Length: {Length} \nWidth: {Width}");
+            double area = CalculateArea();
+            Console.WriteLine($"Area of the Rectangle is: {area:F2}");  // Corrected the formatting for area
         }
     }
-
 }
+
+
 
 
 

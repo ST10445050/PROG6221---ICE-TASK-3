@@ -4,7 +4,20 @@
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello, World!");
+            // Create an instance of Rectangle
+            Shape rectangle = new Rectangle("Rectangle", 5, 10);
+            rectangle.Display();
+
+            Console.WriteLine();
+            Console.WriteLine("********************************");
+            Console.WriteLine();
+            
+
+            // Create an instance of Circle
+            Shape circle = new Circle("Circle", 7);
+            circle.Display();  
+
+            Console.ReadKey();  
         }
     }
 }
