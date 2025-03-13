@@ -6,7 +6,6 @@
         {
             // Create an instance of Rectangle
             Shape rectangle = new Rectangle("Rectangle", 5, 10);
-            rectangle.Display();
 
             Console.WriteLine();
             Console.WriteLine("********************************");
