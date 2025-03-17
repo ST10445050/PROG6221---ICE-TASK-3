@@ -2,9 +2,9 @@ name: C# Build and Syntax Check
 
 on: 
  pull:
-   branches: ["main"] # Change to branch you pushed code too
+   branches: ["master"] # Change to branch you pushed code too
  pull_requests:
-  branches: ["main"] 
+  branches: ["master"] 
 
 jobs:
  build:
